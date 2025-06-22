@@ -14,11 +14,11 @@ const Hero = () => {
                     </div>
                     <div class="download-apps">
                         <a target="_blank" href="https://apps.apple.com/ng/app/piggyvest/id1263117994">
-                            <img src="assets/whiteAppleLogo.svg" alt="download-apple" /> Get on
+                            <img src="./whiteAppleLogo.svg" alt="download-apple" /> Get on
                             iPhone</a>
 
                         <a target="_blank" href="https://play.google.com/store/apps/details?id=com.piggybankng.piggy">
-                            <img src="assets/google-icon.svg" alt="download-google" />Get on
+                            <img src="./google-icon.svg" alt="download-google" />Get on
                             Android</a>
                     </div>
 
