@@ -1,0 +1,65 @@
+
+.investment {
+  width: 100%;
+  padding: 190px 0;
+  background-color: #ffffff;
+}
+
+.invest-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  margin-bottom: 20px;
+}
+
+.invest-text h1 {
+  font-size: 41px;
+  font-weight: 700;
+}
+
+.invest-card {
+  background: #7913e5;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 950px;
+  height: 500px;
+  padding: 40px;
+  margin: 40px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-text .text h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  max-width: 400px;
+}
+
+.card-text .text p {
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 278px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-top: 30px;
+  color: #fed6f1;
+}
+
+.card-text a {
+  color: #fff;
+}
+
+.invest-card-img {
+  width: 450px;
+  position: absolute;
+  right: 5%;
+  top: 15%;
+}
+
+.invest-card-img img {
+  width: 100%;
+}

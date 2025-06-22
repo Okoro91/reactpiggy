@@ -1,0 +1,49 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 85px 0;
+  width: 100%;
+}
+
+.video-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-text h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-top: 75px;
+}
+
+
+.video-text p {
+  font-size: 20px;
+  font-weight: 700;
+  max-width: 678px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.youtube {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+iframe {
+  width: 680px;
+  height: 450px;
+  border-radius: 20px;
+  border: none;
+}
