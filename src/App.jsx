@@ -4,6 +4,9 @@ import Security from './component/security/Security';
 import Savings from './component/savings/Savings';
 import Investment from './component/investment/Investment';
 import Video from './component/video/video';
+import Customers from './component/customers/customers';
+import Featured from './component/featured/Featured';
+import Footer from './component/footer/Footer';
 import './App.css';
 
 const App = () => {
@@ -15,6 +18,9 @@ const App = () => {
         <Savings />
         <Investment />
         <Video />
+        <Customers />
+        <Featured />
+        <Footer />
       </div>
   )
 }

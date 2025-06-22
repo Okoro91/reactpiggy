@@ -1,0 +1,27 @@
+
+.featured {
+  width: 100%;
+  padding: 45px 0;
+  text-align: center;
+}
+
+.featured h4 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #122231;
+  margin-bottom: 25px;
+}
+
+.featured-logo {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  width: 100%;
+}
+
+.featured-logo img {
+  width: 130px;
+  height: auto;
+}
