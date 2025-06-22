@@ -12,3 +12,142 @@
   margin: 0 auto;
 }
 
+
+@media (max-width: 990px) {
+  .navbar {
+    display: none;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 32px;
+    color: #3d4f60;
+    font-weight: 700;
+  }
+
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+  }
+
+  .hero-text {
+    max-width: 580px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 395px;
+    margin-bottom: 85px;
+  }
+
+  .hero-img {
+    position: relative;
+  }
+
+
+  .security {
+    margin-top: 398px;
+    text-align: center;
+  }
+
+  .invest-text h1 {
+    font-size: 28px;
+  }
+
+
+  .invest-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    max-width: 650px;
+    padding-bottom: 0;
+  }
+
+
+  .invest-card .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-text .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-text .text h1 {
+    font-size: 32px;
+    width: 390px;
+  }
+
+  .card-text .text p {
+    font-size: 16px;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .invest-card .card-text .card-link {
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .invest-card-img {
+    position: relative;
+    left: unset;
+    right: unset;
+    top: unset;
+    bottom: -10px;
+    margin-top: 45px;
+    padding: 0;
+    width: 450px;
+  }
+
+  
+  .customers {
+    flex-direction: column;
+  }
+
+  .customers-img {
+    max-width: 400px;
+    width: 100%;
+    order: 1;
+  }
+
+  .customers-text {
+    max-width: 400px;
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .top-links {
+    flex-wrap: wrap;
+    gap: 45px;
+  }
+
+  .footer-logo {
+    width: 100%;
+  }
+}
+
